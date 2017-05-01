@@ -14,5 +14,10 @@ public class EmployeeController {
 		_LOGGER.info("Enter the Login Controller");
 		return null;
 	}
+	@RequestMapping(name="/registe")
+	public ModelAndView register(){
+		_LOGGER.info("Enter the register class");
+		return null;
+	}
 	
 }
